@@ -1,10 +1,12 @@
-import operator
+import nltk
 import json
 from collections import Counter
 import tokenizer
 from nltk.corpus import stopwords
 from nltk import bigrams
 import string
+
+#nltk.download('stopwords')
 
 
 fname = 'data/stream_memo_anaya.json'
